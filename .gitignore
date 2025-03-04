@@ -1,11 +1,16 @@
 data/clean
 output/
-!data/clean/.gitignore
-!output/.gitignore
+!data/clean/.gitkeep
+!output/.gitkeep
 *.pdf
 *.html
 
 *_files/
+
+# git keep are folders meant to be empty
+# kind of like "this page is meant to be blank"
+# more of a convention
+# people also put a README folder
 
 # History files
 .Rhistory
