@@ -1,0 +1,12 @@
+---
+title: "My awesome report"
+format: html
+editor: visual
+---
+
+heres a report of the titanic data
+
+
+# Figure
+
+![](output/fig.png)
