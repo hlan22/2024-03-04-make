@@ -23,4 +23,5 @@ write_csv(data, opt$output_path)
 
 print("finished script 1")
 
-# To run the script: type: Rscript 01-load_clean.R --file_path=data/original/titanic.csv --output_path=data/clean/titanic_clean.csv
+# To run the script: type: 
+# Rscript 01-load_clean.R --file_path=data/original/titanic.csv --output_path=data/clean/titanic_clean.csv
