@@ -9,6 +9,7 @@ output/coef.csv output/fig.png:04-analyze.R output/model.RDS
 
 index.html: report.qmd output/coef.csv output/fig.png
 	quarto render report.qmd --ouput index.html
+	# mv report.html index.html, but that would be confusing with extra file
 
 clean:
 	rm -f output/*

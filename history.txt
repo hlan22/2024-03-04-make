@@ -1,0 +1,25 @@
+    1  refresh
+    2  ls
+    3  cd./
+    4  cd .
+    5  ls
+    6  cd ..
+    7  ls
+    8  R
+    9  cd Documents/
+   10  pwd
+   11  Rscript 01-load_clean.R --file_path=data/original/titanic.csv --output_path=data/clean/titanic_clean.csv
+   12  Rscript 01-load_clean.R --file_path=data/original/titanic.csv --output_path=data/clean/titanic_clean.csv
+   13  Rscript 03-model.R --file_path=data/clean/titanic_clean.csv --output_path=output/model.RDS
+   14  Rscript 04-analyze.R --model=output/model.RDS --output_coef=output/coef.csv --output_fig=output/output_fig
+   15  quarto render report.qmd
+   16  Rscript 03-model.R --file_path=data/clean/titanic_clean.csv --output_path=output/model.RDS
+   17  Rscript 04-analyze.R --model=output/model.RDS --output_coef=output/coef.csv --output_fig=output/output_fig
+   18  make data/clean/titanic_clean.csv
+   19  make output/model.RDS
+   20  touch output/model.RDS
+   21  make output/model.RDS
+   22  make index.html
+   23  make clean
+   24  make index.html
+   25  history > history.txt
